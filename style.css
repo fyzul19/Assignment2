@@ -66,26 +66,20 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  
-  
 }
 
 .banner-container1 {
-  
   background-image: url(./images/Group\ 14.png);
   background-repeat: no-repeat;
   width: 60%;
   height: 450px;
   text-align: center;
-  
 }
 
 .banner-container-h3 {
   color: #0b0223;
   font-size: 45px;
   font-weight: 500;
-  
-  
 }
 .banner-container-h1 {
   margin-top: -50px;
@@ -95,8 +89,6 @@ nav {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  
-  
 }
 
 .banner-pera {
@@ -109,8 +101,6 @@ nav {
   align-items: center;
   padding: 0px 300px;
   gap: 10px;
-  
-  
 }
 .btn-sign-in {
   padding: 10px 20px;
@@ -118,55 +108,48 @@ nav {
   border: none;
   background: linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%);
 }
-.btn-go-rogue{
+.btn-go-rogue {
   padding: 10px 20px;
   border-radius: 48px;
   border: none;
-  background: #4EC5F7;
+  background: #4ec5f7;
 }
-.banner-container2{
-  
-  
+.banner-container2 {
 }
-.banner-container2 img{
+.banner-container2 img {
   width: 70%;
 }
 
 /* online game section */
-.card-container1{
+.card-container1 {
   text-align: center;
- 
-  
 }
-.games-h3{
-  color: #0B0223;
+.games-h3 {
+  color: #0b0223;
   font-size: 48px;
   font-weight: 700;
-  
 }
-.funny-videos{
-  background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-font-size: 48px;
-font-weight: 700;
-
+.funny-videos {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 48px;
+  font-weight: 700;
 }
 
-.games-p{
-  color: #534C64;
+.games-p {
+  color: #534c64;
   font-size: 18px;
   font-weight: 400;
   margin-top: -40px;
 }
 
-.card-container2{
+.card-container2 {
   display: flex;
   justify-content: space-evenly;
   width: 80%;
   margin-left: 200px;
-  
 }
 
 /* .card-container2 card1{
@@ -192,123 +175,146 @@ font-weight: 700;
 
 }  */
 
+.card3{
+
+}
+
 .card-container2 img {
-    width: 250px;
-    height: 350;
-    display: flex;
-    justify-content: space-evenly;
-    
-} 
+  width: 250px;
+  height: 350;
+  display: flex;
+  justify-content: space-evenly;
+}
 
 /* play instantly section */
 
-.online-games-banner-cards{
+.online-games-banner-cards {
   display: flex;
   margin-top: 50px;
 }
 
-.online-games-cards{
+.online-games-cards {
   width: 50%;
   text-align: center;
   padding-top: 80px;
-  
 }
-.play-h3{
+.play-h3 {
   font-size: 40px;
-font-weight: 600;
-background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+  font-weight: 600;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
-.play-h4{
+.play-h4 {
   font-size: 40px;
   font-weight: 600;
 }
-.play-p{
-  color: #534C64;
+.play-p {
+  color: #534c64;
   font-size: 15px;
-font-weight: 400;
+  font-weight: 400;
 }
 
-.img-games-cards{
+.img-games-cards {
   width: 50%;
-  
 }
 
-.img-games-cards1 img{
+.img-games-cards1 img {
   width: 400px;
   border-radius: 8px;
 }
-.img-games-cards2 img{
+.img-games-cards2 img {
   width: 150px;
   position: relative;
   bottom: 150px;
 }
 
 /* gaming button styles */
-.game-button{
+
+
+.game-button {
   width: 1500px;
   height: 427px;
-  align-items: center;
+  margin-top: -60px;
+  margin-bottom: 50px;
   
-  background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+
+  background: linear-gradient(
+    90deg,
+    rgba(255, 66, 165, 0.03) 0%,
+    rgba(255, 66, 165, 0.03) 100%
+  );
   /* padding-left: 200px; */
   padding: 100px 200px;
   width: 100%;
   height: 100%;
-  
 }
 
-.game-button-all{
-  
+.game-button-all {
+  display: inline;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
-.game-button-all button{
-  
+.game-button-all button  {
   border-radius: 50px;
-background: #FFF;
-width: 200px;
-height: 60px;
-margin:30px 5px;
+  width: 200px;
+  height: 50px;
+  margin: 30px 5px;
+  border: none;
+}
+.game-button-all  button :hover {
+  
+  background-color: rgb(60, 143, 143);
+}
+
+.game-button-all-2 button :hover{
+  border:  #4ec5f7;
+  background-color: rgb(246, 68, 234);
 
 }
-.game-button-all-2 button{
+
+.game-button-all-2 button  {
   border-radius: 50px;
-  background: #FFF;
   width: 200px;
   height: 60px;
-  margin:30px 5px;
-  
+  margin: 30px 5px;
+  border: none;
   
 }
 
-.game-button-all button .button-icon-1 img {
-  width: 30px;
-background: #FFF;
+.game-button-all button .button-icon-1 img  {
+  width: 15px;
+  background: #fff;
 }
 
 .game-button-all-2 button .button-icon-2 img {
-  width: 30px;
-background: #FFF;
+  width: 15px;
+  background: #fff;
 }
-.game-button-all button .button-text{
-  color: #0B0223;
-  font-weight: 800;
+
+.game-button-all button .button-text {
+  color: #0b0223;
+  font-weight: 600;
   
 }
-.game-button-all-2 button .button-text{
-  color: #0B0223;
-  font-weight: 800;
+.game-button-all-2 button .button-text {
+  color: #0b0223;
+  font-weight: 600;
   
 }
+
+
+
 
 /* footer section */
 
-.footer-section{
+.footer-section {
   width: 100%;
   height: 400px;
-  background-color: #0B0223;
+  background-color: #0b0223;
 }
 /* .logo-container{
   width: 80%;
@@ -318,10 +324,54 @@ background: #FFF;
   border: 1px solid palevioletred;
 } */
 
-.li-footer{
+.container-all {
+  text-align: center;
+}
+.logo-container7 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo-container7 img {
+  width: 87px;
+  height: 40px;
+  object-fit: cover;
+}
+.logo-container7 p {
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.gamer-G7 {
+  color: rgb(238, 70, 126);
+  font-size: 45px;
+  font-weight: 600;
+}
+.gamer-amer7 {
+  color: white;
+  font-size: 45px;
+  font-weight: 600;
+}
+
+.li-footer p {
   color: white;
   display: inline-flex;
   list-style: none;
   padding: 10px;
   gap: 50px;
+}
+.fa-brands{
+  font-size: 50px;
+  gap: 50px;
+  margin: 10px;
+}
+.footer-list {
+  color: white;
+  display: inline-flex;
+  padding: 10px;
+  gap: 60px;
+}
+.footer-description {
+  color: rgba(255, 255, 255, 0.555);
+  font-size: 16px;
+  font-weight: 500;
 }
