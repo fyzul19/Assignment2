@@ -255,10 +255,7 @@ nav {
 }
 
 .game-button-all {
-  display: inline;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+ 
 }
 
 .game-button-all button  {
@@ -283,7 +280,7 @@ nav {
 .game-button-all-2 button  {
   border-radius: 50px;
   width: 200px;
-  height: 60px;
+  height: 50px;
   margin: 30px 5px;
   border: none;
   cursor: grab;

@@ -1,3 +1,81 @@
-@media  {
-    
+@media screen and ( max-width : 576px) {
+    .nav-container {
+        flex-direction: column;
+    }
+    .nav-bar-container {
+        flex-direction: column;
+      }
+      .nav-bar-container a {
+        margin-top: 30px;
+      }
+      .banner-container{
+        flex-direction: column;
+        
+      }
+      .banner-container1{
+        flex-direction: column;
+        margin-top: 20px;
+        width: 380px;
+        text-align: center;
+      }
+      .btn-banner{
+        margin-left: -200px;
+      }
+      .card-container1{
+        flex-direction: column;
+      }
+      .card-container2{
+           flex-direction: column;
+           margin-left: -0px;
+        
+      }
+      .online-games-banner-cards{
+        flex-direction: column;
+      }
+      .card-container2 img {
+        width: 380px;
+        height: 400px;
+      }
+      .play-h3{
+        
+
+      }
+      .play-p {
+        color: #534c64;
+        font-size: 15px;
+        font-weight: 400;
+      }
+      .img-games-cards1 img {
+        width: 380px;
+        border-radius: 8px;
+        margin-top: 20px;
+      }
+      .game-button-all{
+        margin-left: -100px;
+      }
+      .game-button-all-2  {
+        margin-left: -100px;
+      }
+      
+      .footer-section {
+        width: 380px;
+        height: 900px;
+        background-color: #0b0223;
+      }
+      .logo-container7{
+        flex-direction: column;
+        
+      }
+      .logo-container7{
+        padding-top: 20px;
+      }
+      .li-footer{
+        flex-direction: column;
+      }
+      .footer-list{
+        flex-direction: column;
+      }
+      .footer-description{
+        flex-wrap: wrap;
+      }
 }
