@@ -175,8 +175,11 @@ nav {
 
 }  */
 
-.card3{
-
+.card3 :hover{
+    border: 3px solid orangered;
+    background-color: #4b187f;
+    transform: scale(1.2);
+    cursor: grab;
 }
 
 .card-container2 img {
@@ -264,6 +267,7 @@ nav {
   height: 50px;
   margin: 30px 5px;
   border: none;
+  cursor: grab;
 }
 .game-button-all  button :hover {
   
@@ -282,6 +286,7 @@ nav {
   height: 60px;
   margin: 30px 5px;
   border: none;
+  cursor: grab;
   
 }
 
