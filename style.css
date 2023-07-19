@@ -144,6 +144,15 @@ nav {
   font-weight: 700;
   
 }
+.funny-videos{
+  background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-size: 48px;
+font-weight: 700;
+
+}
 
 .games-p{
   color: #534C64;
@@ -201,6 +210,7 @@ nav {
 .online-games-cards{
   width: 50%;
   text-align: center;
+  padding-top: 80px;
   
 }
 .play-h3{
@@ -234,4 +244,84 @@ font-weight: 400;
   width: 150px;
   position: relative;
   bottom: 150px;
+}
+
+/* gaming button styles */
+.game-button{
+  width: 1500px;
+  height: 427px;
+  align-items: center;
+  
+  background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+  /* padding-left: 200px; */
+  padding: 100px 200px;
+  width: 100%;
+  height: 100%;
+  
+}
+
+.game-button-all{
+  
+}
+
+.game-button-all button{
+  
+  border-radius: 50px;
+background: #FFF;
+width: 200px;
+height: 60px;
+margin:30px 5px;
+
+}
+.game-button-all-2 button{
+  border-radius: 50px;
+  background: #FFF;
+  width: 200px;
+  height: 60px;
+  margin:30px 5px;
+  
+  
+}
+
+.game-button-all button .button-icon-1 img {
+  width: 30px;
+background: #FFF;
+}
+
+.game-button-all-2 button .button-icon-2 img {
+  width: 30px;
+background: #FFF;
+}
+.game-button-all button .button-text{
+  color: #0B0223;
+  font-weight: 800;
+  
+}
+.game-button-all-2 button .button-text{
+  color: #0B0223;
+  font-weight: 800;
+  
+}
+
+/* footer section */
+
+.footer-section{
+  width: 100%;
+  height: 400px;
+  background-color: #0B0223;
+}
+/* .logo-container{
+  width: 80%;
+  height: 300px;
+  margin: 80px 200px;
+  padding: 200px;
+  border: 1px solid palevioletred;
+} */
+
+.li-footer{
+  color: white;
+  display: inline-flex;
+  list-style: none;
+  padding: 10px;
+  gap: 50px;
 }
