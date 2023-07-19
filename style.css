@@ -67,6 +67,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   
+  
 }
 
 .banner-container1 {
@@ -134,6 +135,8 @@ nav {
 /* online game section */
 .card-container1{
   text-align: center;
+ 
+  
 }
 .games-h3{
   color: #0B0223;
@@ -152,4 +155,83 @@ nav {
 .card-container2{
   display: flex;
   justify-content: space-evenly;
+  width: 80%;
+  margin-left: 200px;
+  
+}
+
+/* .card-container2 card1{
+  width: 200px;
+  margin: 0px 30px;
+  
+
+}
+.card-container2 card2{
+  width: 200px;
+  margin: 0px 20px;
+
+}
+.card-container2 card3{
+  width: 200px;
+  margin: 0px 30px;
+
+
+}
+.card-container2 card4{
+  width: 200px;
+  margin: 0px 30px;
+
+}  */
+
+.card-container2 img {
+    width: 250px;
+    height: 350;
+    display: flex;
+    justify-content: space-evenly;
+    
+} 
+
+/* play instantly section */
+
+.online-games-banner-cards{
+  display: flex;
+  margin-top: 50px;
+}
+
+.online-games-cards{
+  width: 50%;
+  text-align: center;
+  
+}
+.play-h3{
+  font-size: 40px;
+font-weight: 600;
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.play-h4{
+  font-size: 40px;
+  font-weight: 600;
+}
+.play-p{
+  color: #534C64;
+  font-size: 15px;
+font-weight: 400;
+}
+
+.img-games-cards{
+  width: 50%;
+  
+}
+
+.img-games-cards1 img{
+  width: 400px;
+  border-radius: 8px;
+}
+.img-games-cards2 img{
+  width: 150px;
+  position: relative;
+  bottom: 150px;
 }
